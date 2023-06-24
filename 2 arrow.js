@@ -5,5 +5,5 @@ suma = function(a, b){
 
 
 ////////////////////
-const suma = (a, b) => a + b;
+suma = (a, b) => a + b;
 
