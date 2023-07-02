@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#div1{
+    background: red;
+    height: 200px;
+    width: 200px;
+}
+#div2{
+    background: yellow;
+    height: 200px;
+    width: 200px;
+}
+#div3{
+    background: green;
+    height: 200px;
+    width: 200px;
+}
+#div4 {
+    background: black;
+    height: 200px;
+    width: 200px;
+}
