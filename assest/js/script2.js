@@ -1,31 +1,10 @@
-/*let resultado = document.querySelector('.resultado')
-const divs = document.querySelectorAll('.div1, div2, div3, div4');
-*/
-/*
-
-function  pintar(elementId, color){
-    divs.style.backgroundColor = color
-}*/
-
-divs = document.querySelector('#div1', '#div2', '#div3', '#div4');
-function pintar(color, 'click'){
-    divs.
-}
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'a' ||'A') {
-        divs.style.backgroundColor = 'black'
-        divs.innerHTML = 'elegiste el negro'
-    } else if (event.key === 's' || 'S') {
-        divs.style.backgroundColor= 'red'
-
-    } else if (event.key === 'd' || 'D') {
-        divs.style.backgroundColor= 'green'
-    } else {
-        h3.innnerHTML = alert('ERROR CARACTER NO VALIDO')
-    }
-})
-
-
-color('click')
+console.log ("conectado el JS")
+let cuadro1 = document.getElementById("div1");
+let cuadro2 = document.getElementById("div2");
+let cuadro3 = document.getElementById("div3");
+let cuadro4 = document.getElementById("div4");
+let global = cuadro4 + cuadro3 + cuadro2 +cuadro1;
+const accion =() => global.style.backgroundColor = "black";
+global.addEventListener("click", accion);
 
 
