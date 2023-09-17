@@ -1,12 +1,16 @@
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
+div{
+    margin: 2px;
 
+}
 #div1{
     background: red;
     height: 200px;
     width: 200px;
+
 }
 #div2{
     background: yellow;
@@ -21,5 +25,10 @@ body {
 #div4 {
     background: blue;
     height: 200px;
+    width: 200px;
+}
+#key{
+    border: black 2px solid;
+    height: 196px;
     width: 200px;
 }
